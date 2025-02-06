@@ -21,7 +21,8 @@ E. `media` folder contains the plots generated from running the Python files in 
 
 ## Running
 1. Download [Julia](https://julialang.org/downloads/) and install all the packages at the top of `sos_ibc.jl` file.
-2. Download [Python](https://www.python.org/downloads/) and install the [Z3](https://github.com/Z3Prover/z3) library.
+2. Install [MOSEK](https://docs.mosek.com/11.0/install/index.html) for Julia and set it up according to the instructions. Otherwise, feel free to change the SOS solver inside the Julia file to work with other solvers.
+3. Download [Python](https://www.python.org/downloads/) and install the [Z3](https://github.com/Z3Prover/z3) library.
 
 
 Bibtex of our paper:
